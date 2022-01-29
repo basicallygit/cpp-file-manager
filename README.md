@@ -22,10 +22,6 @@ git clone https://github.com/basicallygit/cpp-file-manager.git cppfm_src && cd c
 ```
 ### Installation on Windows:
 ## One Liner for powershell:
-- (adds a new item to the path enivronment for the current user. exe is placed in "%USERPROFILE%/cppfm_bin/cee.exe)
-```PowerShell
-git clone https://github.com/basicallygit/cpp-file-manager.git cppfm_src;cd cppfm_src;mkdir "$Env:userprofile\cppfm_bin";gcc src/cee.cpp -o cee.exe;move .\cee.exe "$Env:userprofile\cppfm_bin\cee.exe";[Environment]::SetEnvironmentVariable("PATH", $Env:PATH + ";" + "$Env:userprofile\cppfm_bin", [EnvironmentVariableTarget]::User)
-```
 ## Manual:
 ```powershell
 ~ git clone https://github.com/basicallygit/cpp-file-manager.git cppfm_src
