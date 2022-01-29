@@ -21,7 +21,6 @@ git clone https://github.com/basicallygit/cpp-file-manager.git cppfm_src && cd c
 ~ sudo gcc src/cee.cpp -o /usr/bin/cee
 ```
 ### Installation on Windows:
-## One Liner for powershell:
 ## Manual:
 ```powershell
 ~ git clone https://github.com/basicallygit/cpp-file-manager.git cppfm_src
