@@ -21,7 +21,7 @@ git clone https://github.com/basicallygit/cpp-file-manager.git cppfm_src && cd c
 ~ sudo gcc src/cee.cpp -o /usr/bin/cee
 ```
 ### Installation on Windows:
-##One liner:
+## One liner:
 - (adds cee.exe to current users PATH, cee.exe located in %USERPROFILE%/ccpfm_bin/cee.exe)
 ```powershell
 git clone https://github.com/basicallygit/cpp-file-manager.git cppfm_src;cd cppfm_src;mkdir "$Env:userprofile\cppfm_bin";gcc src/cee.cpp -o cee.exe -lstdc++;move .\cee.exe "$Env:userprofile\cppfm_bin\cee.exe";[Environment]::SetEnvironmentVariable("PATH", $Env:PATH + ";" + "$Env:userprofile\cppfm_bin", [EnvironmentVariableTarget]::User)
